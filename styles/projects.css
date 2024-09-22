@@ -1,0 +1,65 @@
+main {
+    background-color: var(--gray-200);
+}
+
+.header-project {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-project h1 {
+    font-family: "Asap", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    color: var(--gray-600);
+    margin-bottom: 56px;
+}
+
+.header-project h2 {
+    margin-top: 72px;
+    margin-bottom: 8px;
+    color: var(--red);
+}
+.project-cards {
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 144px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: var(--gray-300);
+    border-radius: 20px;
+    width: 330px;
+    height: 280px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+
+    img {
+        margin: 10px;
+        border-radius: 8px;
+        width: 306px;
+        height: 156px;
+        object-fit: cover;
+    }
+
+    h3 {
+        margin: 10px;
+        text-align: start;
+    }
+
+    p {
+        margin-left: 10px;
+        text-align: start;
+    }
+
+}

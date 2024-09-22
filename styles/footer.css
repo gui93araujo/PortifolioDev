@@ -1,0 +1,76 @@
+footer {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../assets/Background_Contacts.png');
+    object-fit: cover;
+}
+
+.footer {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-header {
+    margin-top: 128px;
+    text-align: center;
+
+    h2 {
+        font-family: "Asap", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 120%;
+        color: var(--gray-600);
+        margin-bottom: 8px;
+    }
+    p {
+        margin-bottom: 48px;
+
+    }
+
+    h3 {
+        font-family: "Inconsolata", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 120%;
+        color: var(--red); 
+        margin-bottom: 8px;   
+    }
+}
+
+.footer p {
+    p {
+        font-family: "Maven Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        color: var(--gray-400);
+        text-align: center;
+    }
+}
+
+.card-contact {
+    width: 400px;
+    height: 68px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    background-color: var(--gray-300);
+    display: flex;
+    align-items: center;
+    
+    img{
+        width: 28px;
+        height: 28px;
+        margin-left: 12px;
+    }
+    
+    p {
+        margin-left: 8px;
+        text-align: center;
+
+        color: var(--gray-500);
+    }
+}
